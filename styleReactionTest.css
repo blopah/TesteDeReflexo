@@ -1,664 +1,668 @@
-        
-        body {
-            padding: 0;
-            margin: 0;
-            background-color: black;
-            color: lime;
-            font-family: monospace;
-        }
-
-        #h1 {
-            position: absolute;
-            left: 45%;
-        }
-
-        #p {
-            position: absolute;
-            left: 48%;
-            top: 50px;
-        }
-        
-        #time {
-            position: absolute;
-            left: 48%;
-            top: 70px;
-        }
-
-        .back {
-            opacity: 1;
-        }
-
-        #shape {
-            width: 50px;
-            height: 50px;
-            background-color: red;
-            position: absolute;
-            float: right;
-            right: 48%;
-            top: 250px;
-            border-radius: 15%; 
-            border: solid 2px;
-            border-color: lime;
-        }
-
-        #shape1 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-        }
-
-        #shape2 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-        }
-
-        #shape3 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-        }
-
-        #shape4 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-        }
-
-        #shape5 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-        }
-
-        #shape6 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-        }
-
-        #shape7 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-        }
-
-        #shape8 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-        }
-
-        #shape9 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-        }
-
-        #shape10 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-
-        }
-
-        #shape11 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 100px;
-        }
-
-        #shape12 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 100px;
-        }
-
-        #shape13 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 100px;
-        }
-
-        #shape14 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 100px;
-        }
-
-        #shape15 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 100px;
-        }
-
-        #shape16 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 100px;
-        }
-
-        #shape17 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 100px;
-        }
-
-        #shape18 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 100px;
-        }
-
-        #shape19 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 100px;
-        }
-
-        #shape20 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 100px;
-        }
-
-        #shape21 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 200px;
-        }
-
-        #shape22 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 200px;
-        }
-
-        #shape23 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 200px;
-        }
-
-        #shape24 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 200px;
-        }
-
-        #shape25 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 200px;
-        }
-
-        #shape26 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 200px;
-        }
-
-        #shape27 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 200px;
-        }
-
-        #shape28 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 200px;
-        }
-
-        #shape29 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 200px;
-        }
-
-        #shape30 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 200px;
-        }
-
-        #shape31 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 300px;
-        }
-
-        #shape32 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 300px;
-        }
-
-        #shape33 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 300px;
-        }
-
-        #shape34 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 300px;
-        }
-
-        #shape35 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 300px;
-        }
-
-        #shape36 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 300px;
-        }
-
-        #shape37 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 300px;
-        }
-
-        #shape38 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 300px;
-        }
-
-        #shape39 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 300px;
-        }
-
-        #shape40 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 300px;
-        }
-
-        #shape41 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 400px;
-        }
-
-        #shape42 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 400px;
-
-        }
-
-        #shape43 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 400px;
-        }
-
-        #shape44 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 400px;
-        }
-
-        #shape45 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 400px;
-        }
-
-        #shape46 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 400px;
-        }
-
-        #shape47 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 400px;
-        }
-
-        #shape48 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 400px;
-        }
-
-        #shape49 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 400px;
-        }
-
-        #shape50 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 400px;
-
-        }
-
-        #shape51 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 500px;
-        }
-
-        #shape52 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 500px;
-        }
-
-        #shape53 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 500px;
-        }
-
-        #shape54 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 500px;
-        }
-
-        #shape55 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 500px;
-        }
-
-        #shape56 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 500px;
-        }
-
-        #shape57 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 500px;
-        }
-
-        #shape58 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 500px;
-        }
-
-        #shape59 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 500px;
-        }
-
-        #shape60 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 500px;
-        }
-
-        #shape61 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 10%;
-            top: 600px;
-
-        }
-
-        #shape62 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            top: 600px;
-        }
-
-        #shape63 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 20%;
-            top: 600px;
-        }
-
-        #shape64 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 30%;
-            top: 600px;
-        }
-
-        #shape65 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 40%;
-            top: 600px;
-        }
-
-        #shape66 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 50%;
-            top: 600px;
-        }
-
-        #shape67 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 60%;
-            top: 600px;
-        }
-
-        #shape68 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 70%;
-            top: 600px;
-        }
-
-        #shape69 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 80%;
-            top: 600px;
-        }
-
-        #shape70 {
-            width: 10%;
-            height: 100px;
-            background-color: black;
-            position: absolute;
-            left: 90%;
-            top: 600px;
-
-        }
-
-        #test {
-            border: solid;
-        }
+
+body {
+padding: 0;
+margin: 0;
+background-color: black;
+color: lime;
+font-family: monospace;
+}
+
+#h1 {
+position: absolute;
+left: 45%;
+}
+
+#p {
+position: absolute;
+left: 48%;
+top: 50px;
+}
+
+#time {
+position: absolute;
+left: 48%;
+top: 70px;
+}
+
+.back {
+opacity: 1;
+}
+
+#shape {
+width: 50px;
+height: 50px;
+background-color: red;
+position: absolute;
+float: right;
+right: 48%;
+top: 250px;
+border-radius: 15%; 
+border: solid 2px;
+border-color: lime;
+}
+
+#bg {
+opacity: 0.3;
+}
+
+#shape1 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+}
+
+#shape2 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+}
+
+#shape3 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+}
+
+#shape4 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+}
+
+#shape5 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+}
+
+#shape6 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+}
+
+#shape7 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+}
+
+#shape8 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+}
+
+#shape9 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+}
+
+#shape10 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+
+}
+
+#shape11 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 100px;
+}
+
+#shape12 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 100px;
+}
+
+#shape13 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 100px;
+}
+
+#shape14 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 100px;
+}
+
+#shape15 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 100px;
+}
+
+#shape16 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 100px;
+}
+
+#shape17 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 100px;
+}
+
+#shape18 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 100px;
+}
+
+#shape19 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 100px;
+}
+
+#shape20 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 100px;
+}
+
+#shape21 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 200px;
+}
+
+#shape22 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 200px;
+}
+
+#shape23 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 200px;
+}
+
+#shape24 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 200px;
+}
+
+#shape25 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 200px;
+}
+
+#shape26 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 200px;
+}
+
+#shape27 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 200px;
+}
+
+#shape28 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 200px;
+}
+
+#shape29 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 200px;
+}
+
+#shape30 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 200px;
+}
+
+#shape31 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 300px;
+}
+
+#shape32 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 300px;
+}
+
+#shape33 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 300px;
+}
+
+#shape34 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 300px;
+}
+
+#shape35 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 300px;
+}
+
+#shape36 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 300px;
+}
+
+#shape37 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 300px;
+}
+
+#shape38 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 300px;
+}
+
+#shape39 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 300px;
+}
+
+#shape40 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 300px;
+}
+
+#shape41 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 400px;
+}
+
+#shape42 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 400px;
+
+}
+
+#shape43 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 400px;
+}
+
+#shape44 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 400px;
+}
+
+#shape45 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 400px;
+}
+
+#shape46 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 400px;
+}
+
+#shape47 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 400px;
+}
+
+#shape48 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 400px;
+}
+
+#shape49 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 400px;
+}
+
+#shape50 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 400px;
+
+}
+
+#shape51 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 500px;
+}
+
+#shape52 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 500px;
+}
+
+#shape53 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 500px;
+}
+
+#shape54 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 500px;
+}
+
+#shape55 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 500px;
+}
+
+#shape56 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 500px;
+}
+
+#shape57 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 500px;
+}
+
+#shape58 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 500px;
+}
+
+#shape59 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 500px;
+}
+
+#shape60 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 500px;
+}
+
+#shape61 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 10%;
+top: 600px;
+
+}
+
+#shape62 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+top: 600px;
+}
+
+#shape63 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 20%;
+top: 600px;
+}
+
+#shape64 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 30%;
+top: 600px;
+}
+
+#shape65 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 40%;
+top: 600px;
+}
+
+#shape66 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 600px;
+}
+
+#shape67 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 60%;
+top: 600px;
+}
+
+#shape68 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 70%;
+top: 600px;
+}
+
+#shape69 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 80%;
+top: 600px;
+}
+
+#shape70 {
+width: 10%;
+height: 100px;
+background-color: black;
+position: absolute;
+left: 90%;
+top: 600px;
+
+}
+
+#test {
+border: solid;
+}
